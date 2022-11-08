@@ -16,7 +16,7 @@ module.exports = {
     filename: "bundle.js",
   },
   module: { rules },
-  resolve: { extensions: [".ts", "tsx", ".js"] },
+  resolve: { extensions: [".ts", ".tsx", ".js"] },
   devServer: {
     static: "./",
     port: 5000,
